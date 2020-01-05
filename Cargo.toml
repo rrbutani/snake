@@ -3,9 +3,16 @@ authors = ["jspspike <jspspike@gmail.com>"]
 edition = "2018"
 name = "snake"
 version = "0.1.0"
+
 [dependencies]
 rand = "0.7.2"
+
+[dev-dependencies]
 criterion = "0.3.0"
+
+[[bin]]
+name = "play"
+path = "bins/play.rs"
 
 [[bench]]
 name = "snake"
